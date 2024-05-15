@@ -5,6 +5,11 @@ import ftccIcon from '/public/assets/images/ftcc logo symbol blackout partial in
 import styles from './theme-custom.module.css'
 
 const config: DocsThemeConfig = {
+  useNextSeoProps() {
+    return {
+      titleTemplate: '%s – FTCC Handbook'
+    }
+  },
   banner: {
     dismissible: true,
     key: 'membership-cal-2024-may',
