@@ -26,6 +26,10 @@ const config: DocsThemeConfig = {
       width={24}
       height={24}
     />  FTCC Handbook</div>,
+  primaryHue: {
+    dark: 250,
+    light: 245
+  },
   project: {
     link: 'https://github.com/ryanmacalandag/ftcc-handbook',
   },
