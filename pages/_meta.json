@@ -1,15 +1,24 @@
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
-  "about": {
-    "title": "About",
-    "type": "page"
+  "index": "Welcome",
+  "about": "About FTCC",
+  "committees": "Committees",
+  "special-committees": "Special Committees",
+  "website": {
+    "title": "Home ↗",
+    "type": "page",
+    "href": "https://ftcc.org.au/contact-us",
+    "newWindow": true
+  },
+  "facebook": {
+    "title": "Facebook ↗",
+    "type": "page",
+    "href": "https://ftcc.org.au/contact-us",
+    "newWindow": true
   },
   "contact": {
     "title": "Contact ↗",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "https://ftcc.org.au/contact-us",
     "newWindow": true
   }
 }

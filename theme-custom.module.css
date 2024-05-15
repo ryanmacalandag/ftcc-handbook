@@ -1,0 +1,11 @@
+.logocontainer {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+  gap: .65rem;
+}
+
+.footer {
+  font-size: .75rem;
+}
