@@ -5,6 +5,15 @@ import ftccIcon from '/public/assets/images/ftcc logo symbol blackout partial in
 import styles from './theme-custom.module.css'
 
 const config: DocsThemeConfig = {
+  banner: {
+    dismissible: true,
+    key: 'membership-cal-2024-may',
+    text: (
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLScEbu9rWjeY6MOVN2twtYBfcyzMel6s6o2h-F5nh6gubFOgWA/viewform">
+        🎉 Have you sent in your membership form yet? Go to form →
+      </a>
+    ),
+  },
   logo: <div className={styles.logocontainer}>
     <Image
       src={ftccIcon}
