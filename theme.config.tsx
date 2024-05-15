@@ -3,37 +3,30 @@ import { DocsThemeConfig } from 'nextra-theme-docs'
 import Image from 'next/image'
 import ftccIcon from '/public/assets/images/ftcc logo symbol blackout partial indigo.png';
 import styles from './theme-custom.module.css'
-import ftccOGimage from '/public/assets/images/ftcc-official-handbook-01.png'
 
 const config: DocsThemeConfig = {
   useNextSeoProps() {
     return {
-      titleTemplate: '%s &dash; FTCC Handbook',
+      titleTemplate: '%s - FTCC Official Handbook',
     }
   },
   head: (
     <>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta property="og:title" content="FTCC Handbook" />
       <meta property="og:description" content="The official FTCC guide and resources handbook" />
       {/* HTML Meta Tags */}
-      <title>FTCC Handbook</title>
       <meta name="description" content="The official FTCC guide and resources handbook" />
 
       {/* Facebook Meta Tags */}
       <meta property="og:url" content="https://ftcc-handbook.vercel.app" />
       <meta property="og:type" content="website" />
-      <meta property="og:title" content="FTCC Handbook" />
       <meta property="og:description" content="The official FTCC guide and resources handbook" />
-      <meta property="og:image" content='/public/assets/images/ftcc-official-handbook-01.png' />
 
       {/* Twitter Meta Tags */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta property="twitter:domain" content="ftcc-handbook.vercel.app" />
       <meta property="twitter:url" content="https://ftcc-handbook.vercel.app" />
-      <meta name="twitter:title" content="FTCC Handbook" />
       <meta name="twitter:description" content="The official FTCC guide and resources handbook" />
-      <meta name="twitter:image" content="/public/assets/images/ftcc-official-handbook-01.png" />
     </>
   ),
   banner: {
