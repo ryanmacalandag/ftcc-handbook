@@ -1,8 +1,12 @@
 {
-  "index": "Welcome",
+  "index": "🥳 Welcome ",
   "about": "About FTCC",
   "committees": "Committees",
   "special-committees": "Special Committees",
+  "banner-projects": "Banner Projects",
+  "resources": "📂 Resources",
+  "calendar": "📆 Calendar",
+  "volunteers": "🙌 Volunteers",
   "website": {
     "title": "Home ↗",
     "type": "page",

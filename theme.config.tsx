@@ -34,7 +34,7 @@ const config: DocsThemeConfig = {
     key: 'membership-cal-2024-may',
     text: (
       <a href="https://docs.google.com/forms/d/e/1FAIpQLScEbu9rWjeY6MOVN2twtYBfcyzMel6s6o2h-F5nh6gubFOgWA/viewform">
-        🎉 Have you sent in your membership form yet? Go to form →
+        🎉 Join us become an FTCC member! Signup here →
       </a>
     ),
   },

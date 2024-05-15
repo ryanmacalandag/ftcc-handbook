@@ -4,6 +4,7 @@
   justify-items: center;
   align-items: center;
   gap: .65rem;
+  font-weight: 700;
 }
 
 .footer {
