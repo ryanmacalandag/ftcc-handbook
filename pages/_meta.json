@@ -10,19 +10,18 @@
   "website": {
     "title": "Home ↗",
     "type": "page",
-    "href": "https://ftcc.org.au/contact-us",
+    "href": "https://ftcc.org.au",
     "newWindow": true
   },
   "facebook": {
     "title": "Facebook ↗",
     "type": "page",
-    "href": "https://ftcc.org.au/contact-us",
+    "href": "https://www.facebook.com/filotechcanberra",
     "newWindow": true
   },
   "contact": {
     "title": "Contact ↗",
     "type": "page",
-    "href": "https://ftcc.org.au/contact-us",
-    "newWindow": true
+    "href": "mailto:hello@ftcc.org.au"
   }
 }
