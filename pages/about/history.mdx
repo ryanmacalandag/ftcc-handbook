@@ -1,3 +1,7 @@
+import PersonCard from '../../components/PersonCard';
+import { people } from '../../components/peopleData';
+
+
 # FTCC History
 
 This is the history page!
@@ -12,3 +16,17 @@ This is the history page!
 
 
 ## Inaugural Leaders
+
+
+<div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+  {people.map((person, index) => (
+    <PersonCard
+      key={index}
+      firstName={person.firstName}
+      lastName={person.lastName}
+      position={person.position}
+      photo={person.photo}
+      linkedin={person.linkedin}
+    />
+  ))}
+</div>
